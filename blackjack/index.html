@@ -1,0 +1,129 @@
+<!--  I Hung Dam, student 000736057, certify that all code submitted is my own work;
+ that I have not copied from any other source. I also certify that I have not allowed
+ my work to be copied by others. If in any instance that an external resource is used,
+ I will cite/and or give credit to the original author. -->
+
+<html>
+
+	<head>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Black Jack</title>
+	</head>
+	
+	<body>
+		
+		<h1 id="title">21 Card Game<h1>
+		
+		
+		<div id="statusDiv">
+			<p id="status"></p>
+			<p id="status2"></p>
+		</div>
+	 	
+		<div class="dealerAndPlayers">
+		
+			<div class="nameAndBank">
+				<h3 id="nameDealer">Dealer</h3>
+				<h3 class="bank" id="dealerBank"></h3>
+			</div>
+			
+			<div id="deckDealer">
+				<div class="cards">
+					<h4 id="dealerCard1"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="dealerCard2"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="dealerCard3"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="dealerCard4"></h4>
+				</div>
+				<div class="cards">	
+					<h4 id="dealerCard5"></h4>
+				</div>
+			</div>
+			
+			<div id="totalDealer">	
+				<h5> Card Total: </h5>
+			</div>	
+		</div>	
+		
+		<div class="dealerAndPlayers">
+		
+			<div class="nameAndBank">
+				<h3 id="player1Name"></h3>
+				<h3 class="bank" id="player1Bank"></h3>
+			</div>
+			
+			<div id="deckPlayer1">
+			
+				<div class="cards">
+					<h4 id="player1Card1"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player1Card2"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player1Card3"></xh4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player1Card4"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player1Card5"></h4>
+				</div>	
+			</div>
+			
+			<div id="totalPlayer2">	
+				<h5> Card Total: </h5>
+			</div>	
+		</div>	
+		
+		<div class="dealerAndPlayers">
+		
+			<div class="nameAndBank">	
+				<h3 id="player2Name"></h3>
+				<h3 class="bank" id="player2Bank"></h3>
+			</div>	
+			
+			<div id="deckPlayer2">
+				<div class="cards">
+					<h4 id="player2Card1"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player2Card2"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player2Card3"></h4>
+				</div>				
+				<div class="cards">	
+					<h4 id="player2Card4"></h4>
+				</div>
+				
+				<div class="cards">	
+					<h4 id="player2Card5"></h4>
+				</div>	
+			</div>
+			
+			<div id="totalPlayer1">				
+				<h5> Card Total: </h5>
+			</div>	
+		</div>	
+		<script src="js/main.js"></script>
+		
+		<button type="button" id="help" onclick="rulesOfTheGame();">Help</button>
+		<button type="button" id="quit1" onclick="resettingGame();">Reset Game</button>
+		<button type="button"  id="hit" onclick="hit();" >Hit</button>
+		<button type="button" id="stay" onclick="stay();">Stay</button>
+		<button type="button" id="newRound" onclick="startGame();" >New Round</button>
+		
+		<!-- <button type="button" id="quit2">Quit</button> -->
+		
+	</body>
+	
+</html>

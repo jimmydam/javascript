@@ -1,0 +1,185 @@
+body{
+	background-color: white;
+	width: 320px;
+	height: 650px;
+	border: solid black 2px;
+	
+}
+
+button{
+	width: 50px;
+}
+
+h2{
+	background-color: green;
+	height: 50px;
+}
+
+h3{
+	font-size: 20px;
+	width: 50px;
+}
+
+h4{
+	background-color: white;
+	width: 30px;
+	height: 50px;
+	font-size: 20px;
+	
+	border: solid black 2px;	
+}
+
+h5{
+	font-size: 20px;
+}
+
+p{
+	font-size: 20px;
+}
+.bank{	
+	background-color: orange;
+	left: 200px;
+	top: 10px;
+	width: 110px;
+	position: relative;
+	border: solid black 2px;
+}
+
+.cards{
+	display: inline-block;
+	float: left;
+	position: relative;
+	bottom: 90px;
+	
+}
+
+.cardTotal{
+	position: relative;
+	bottom: 50px;
+	
+}
+
+.dealerAndPlayers{
+	width: 320px;
+	background-color: #076324;
+	height: 120px;
+	
+}
+
+.nameAndBank{
+	background-color: #55766D ;
+	height: 30px;
+	
+}
+#dealerBank{
+	position: absolute;
+	top: 130px;
+	left: 200px;
+}
+#deckDealer{
+	position: absolute;
+	top: 250px;
+	left: px;
+}
+#deckPlayer1{
+	position: absolute;
+	top: 390px;
+	left: px;
+}
+#deckPlayer2{
+	position: absolute;
+	top: 535px;
+	left: px;
+}
+#nameDealer,#player1Name,#player2Name{
+	position: relative;
+	top: 5;
+}
+/* #dealerBank{
+	top: 153px;
+} */
+
+#help{
+	position: absolute;
+	top: 570px;
+	left: 10px;
+}
+
+
+#quit1{
+	position: absolute;
+	top: 600px;
+	left: 10px;
+}
+
+#hit, #stay, #newRound {
+	width: 80px;
+	height: 40px;
+	padding: 5px;
+	top: 600px;
+}
+#hit{
+	position: absolute;
+	
+	left: 100px;
+}
+#newRound{
+	position: absolute;
+	
+	left: 240px;
+}
+
+#player1Bank{
+	position: absolute;
+	top: 270px;
+	left: 200px;
+}
+
+#player1Name{
+	height: 30px;
+	widht: 30px;
+}
+#player2Bank{
+	position: absolute;
+	top: 412px;
+	left: 200px;
+}
+
+
+
+
+
+#status{
+	position: relative;
+	bottom: 25px;
+}
+#status2{
+	position: relative;
+	bottom: 35px;
+}
+
+#statusDiv{
+	background-color: #FCF896;
+	height: 60px;
+	border: solid black 1px;
+}
+
+#stay{
+	position: absolute;
+	left: 170;
+}
+#totalDealer{
+	position: absolute;
+	top: 180px;
+	left: 190px;
+}
+#totalPlayer1{
+	position: absolute;
+	top: 320px;
+	left: 190px;
+}
+#totalPlayer2{
+	position: absolute;
+	top: 460px;
+	left: 190px;
+}
