@@ -1,0 +1,47 @@
+/* 
+ I Hung Dam, student 000736057, certify that all code submitted is my own work;
+ that I have not copied from any other source. I also certify that I have not allowed
+ my work to be copied by others. If in any instance that an external resource is used, 
+ I will cite/and or give credit to the original author.
+ */
+ 
+ 
+ *{
+	padding-left: 3px; 
+ }
+body{
+	background-color: grey;
+}
+
+form{
+	border: solid black 2px;
+	width: 400px;
+	height: 350px;
+	background-color: #FCF896;
+	position: absolute;
+	top: 220px;
+}
+
+#buttonSubmitAnswer{
+	position:absolute;
+}
+
+#main{
+	position: relative;
+}
+
+#question2{
+	height: 350px;
+}
+
+#reason{
+	height: 200px;
+	width: 200px;
+}
+
+#result{
+	position: absolute;
+	left: 180px;
+	top: 500px;
+	z-index: 1;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+ I Hung Dam, student 000736057, certify that all code submitted is my own work;
+ that I have not copied from any other source. I also certify that I have not allowed
+ my work to be copied by others. If in any instance that an external resource is used, 
+ I will cite/and or give credit to the original author.
+-->
+<html>
+
+    <head>
+	
+        <title>Sous Chef Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		
+    </head>
+	
+    <body>	
+		
+		<div id="main">	
+		
+			<h1 id="title">Sous Chef Quiz</h1>
+			<h1 id="result"></h1>
+			<h2 id="score">Points: 0</h2>
+			<h2 id="questionNumber">Question 1/5</h2>
+			
+			
+			
+			<form id="question0">
+				<p id="welcome">Welcome to the Sous Chef quiz, I hope you are ready for this.</p>
+			</form>
+			
+			
+			<form id="question1">
+				<p>what is in a mire-poix? select all that applies.</p>
+				<input type="checkbox" name="mirepoix" id="carrot" value="1">Carrots<br>
+				<input type="checkbox" name="mirepoix" id="potato" value="2">Potato<br>
+				<input type="checkbox" name="mirepoix" id="celery" value="3">Celery<br>
+				<input type="checkbox" name="mirepoix" id="onion" value="4">Onion<br>
+				<input type="checkbox" name="mirepoix" id="dill" value="5">Dill<br>
+				<input type="checkbox" name="mirepoix" id="banana" value="6">Banana<br>
+				<p id="answer3">Mirepoix is compose of onion, celery and carrot. It is used create a flavor template when cooking.<br>It Can be used to start a soup base, stew, a roast etc.. </p>
+				
+
+			</form>
+			<form id="question2">
+				<p>Water's natural boiling temperature is 100c, it is possible to achieve higher temperature.</p>
+				<input type="radio" id="true" value="false" name="trueFalse">True<br>
+				<input type="radio" id="false" value="false" name="trueFalse">False<br>
+				<p id="answer1">True, the steam from water can exceed 100 degree Celsius, <br> also when under pressure the cooking tempreature can be raised such as in a pressure cooker. <br>This can accelerate cooking time by 2 fold.<br> Used to speed up slow cooking dish</p>
+			</form>
+			
+			<form id="question3">
+			<p> why do we sear (brown) the  meat before cooking it?</p>
+				<input type="radio" name="sear" id="a" value="a">it looks more appetizing<br>
+				<input type="radio" name="sear" id="b" value="b">it caramelizes the meat <br>
+				<input type="radio" name="sear" id="c" value="c">prevent lost of moisture when cooking<br>
+				<input type="radio" name="sear" id="d" value="d">all of the above<br>
+				<input type="radio" name="sear" id="e" value="e"> none of the above <br>
+				<p id="answer2">all of the above.</p>
+				<p>Preheat your pan to medium high (360f) cook your steak for 1-2 minute or until brown. <br> Then reduce the heat and finish cooking on pan or oven etc... </p>
+			</form>
+					
+			<form id="question4">
+				<p> why is it important to let the piece of meat rest  after cooking(oven roast, grilled steak etc..)  before cutting into it, typically at least 2 - 3 minutes?</p>
+				<input type="radio" name="rest" id="aa" value="aa">it looks more appetizing<br>
+				<input type="radio" name="rest" id="bb" value="bb">it caramelizes the meat <br>
+				<input type="radio" name="rest" id="cc" value="cc">prevent lost of moisture after cooking<br>
+				<input type="radio" name="rest" id="dd" value="dd">all of the above<br>
+				<input type="radio" name="rest" id="ee" value="ee"> none of the above <br>
+				<p id="answer4">all of the above.</p>
+				<p>when juice are heated up, it wants to escape, letting it rest allows the juices to stabilize.</p>
+			</form>
+			
+			<form id="question5">
+				<p> There are 3 ingredient to a mirepoix, name one of them.</p>
+				<textarea id="reason"></textarea>
+				<p id="answer5">Carrots, celery, or onion</p>
+			
+			</form>
+			
+			<form id="resultPage">
+				<h2> Here are your result.</h2>
+				<h3 id="q1">Question 1: Fail </h3>
+				<h3 id="q2">Question 2: Fail </h3>
+				<h3 id="q3">Question 3: Fail </h3>
+				<h3 id="q4">Question 4: Fail </h3>
+				<h3 id="q5">Question 5: Fail </h3>
+			</form>
+			
+			<div id="buttons">
+				<button id="buttonStartQuiz" type="button" onclick="startQuiz();">start quiz</button>
+				<button id="buttonNextQuestion" type="button" onclick="nextQuestion();">Next question </button>
+				<button id="buttonSubmitAnswer" type="button" onclick="submitAnswer();">Submit answer</button>
+				<button id="viewResult" type="button" onclick="viewResultFunction();">View results</button>
+			</div>	
+		</div>
+		<script src="js/main.js">
+		
+		</script>
+		
+    </body>
+	
+</html>
